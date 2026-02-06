@@ -1,3 +1,17 @@
 node_modules/
 dist/
 *.tgz
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+connections.json
+
+# IDE and tools
+.claude/
+.DS_Store
+
+# Logs
+*.log
